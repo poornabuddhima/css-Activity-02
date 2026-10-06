@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background-color: white;
+            ;
+        }
+
+        .white-box {
+            position: relative;
+            width: 600px;
+            height: 600px;
+        }
+
+        .box-teal {
+            position: absolute;
+    
+            width: 250px;
+            background-color: green;
+            padding: 20px;
+            box-sizing: border-box;
+            color: black;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+      
+        .box-yellow {
+            position: absolute;
+            top: 290px;
+            left: 250px;
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            border-top: 20px solid black;
+            border-bottom: 20px solid black;
+            border-left: 10px solid black;
+            border-right: 10px solid black;
+            box-sizing: border-box;
+        }
+
+        /* Bottom Box */
+        .box-red {
+            position: absolute;
+            top: 530px; 
+            left: 50px;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 10px solid black;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="white-box">
+  
+        <div class="box-teal">
+           every single day is essential for personal growth and lifelong learning. When we step outside our comfort zones, we open ourselves up to unexpected opportunities and fresh perspectives. Although progress can sometimes feel slow or demanding, staying consistent and focused on your core goals ensures that every small effort compounds into lasting, meaningful success over time.
+        <div class="box-yellow"></div>
+
+       
+        <div class="box-red"></div>
+    </div>
+
+</body>
+</html>
